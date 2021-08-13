@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="guitar.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="landing-page">
+        
+        <nav>
+            <i class="menu fas fa-bars"></i>
+            <ul id="list">
+                <li class="first-li">Home</li>
+                <li class="first-li">Products</li>
+                <li class="first-li" id="class">Class
+                    <i class="more fas fa-chevron-right"></i>
+                    <div class="class-level">
+                        <ul>
+                            <li>Beginner</li>
+                            <li>Intermediate</li>
+                            <li>Expert</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="first-li">Wallet</li>
+            </ul>
+        </nav>
+        <h1 id="title">Crazy Guitar</h1>
+        <div id="blue-circle">
+            <img id="blue-guitar" src="guitar1.png" alt="">
+        </div>
+        <img id="black-white-circle" src="black-white-circle.png" alt="">
+        <img id="black-white-guitar" src="zebra.png" alt="">
+        <img id="orange-circle" src="orange-circle.png" alt="">
+        <img id="orange-guitar" src="orange2.png" alt="">
+    </div>
+    <!-- shopping -->
+
+    <div class="shopping">
+        <h1>New Arrivals</h1>
+        <!-- first line products -->
+        <div class="first-line-product">
+            <div class="product-card p1">
+                <div class="icon">
+                    <i class="playmusic far fa-play-circle"></i>
+                    <audio class="song" src=""></audio>
+                </div>
+                <img class="product-img" src="product/p1.png" alt="">
+                <h2 class="money price">$39000</h2>
+                <button class="add-to-cart add">Add To Cart</button>
+            </div>
+            <div class="product-card p2">
+                <div class="icon">
+                    <i class="playmusic far fa-play-circle"></i>
+                    <audio class="song" src=""></audio>
+                </div>
+                <img class="product-img" src="product/p2.png" alt="">
+                <h2 class="money price">$129000</h2>
+                <button class="add-to-cart add">Add To Cart</button>
+            </div>
+            <div class="product-card p3">
+                <div class="icon">
+                    <i class="playmusic far fa-play-circle"></i>
+                    <audio class="song" src=""></audio>
+                </div>
+                <img class="product-img" src="product/p3.png" alt="">
+                <h2 class="money price">$55000</h2>
+                <button class="add-to-cart add">Add To Cart</button>
+            </div>
+        </div>
+        <!-- second-line-product -->
+        <div class="second-line-product">
+            <div class="product-card p4">
+                <div class="icon">
+                    <i class="playmusic far fa-play-circle"></i>
+                    <audio class="song" src=""></audio>
+                </div>
+                <img class="product-img" src="product/p4.png" alt="">
+                <h2 class="money price2 price2-1">$15000</h2>
+                <button class="add-to-cart2 b1 add">Add To Cart</button>
+            </div>
+            <div class="product-card p5">
+                <div class="icon">
+                    <i class="playmusic far fa-play-circle"></i>
+                    <audio class="song" src=""></audio>
+                </div>
+                <img class="product-img" src="product/p5.png" alt="">
+                <h2 class="money price2 price2-2">$88800</h2>
+                <button class="add-to-cart2 b2 add">Add To Cart</button>
+            </div>
+            <div class="product-card p6">
+                <div class="icon">
+                    <i class="playmusic far fa-play-circle"></i>
+                    <audio class="song" src=""></audio>
+                </div>
+                <img class="product-img" src="product/p6.png" alt="">
+                <h2 class="money price2 price2-3">$28000</h2>
+                <button class="add-to-cart2 b3 add">
+                    <!-- hi -->
+                    Add To Cart</button>
+            </div>
+        </div>
+        <!-- Cart -->
+        <div class="cart">
+            <h1>Cart</h1>
+            <div class="cart-detail">
+                <h2 id="item">Item</h2>
+                <h2 id="price-detail">Price</h2>
+                <h2 id="quantity">Quantity</h2>
+            </div>
+            <div class="add-product">
+            </div>
+            <div class="total-cost">
+                <h3>Total</h3>
+                <h4 class="total-price">$0</h4>
+            </div>
+            <button id="purchase">Purchase</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+    <script src="guitar.js"></script>
+</body>
+</html>
